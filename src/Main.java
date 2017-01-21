@@ -45,6 +45,7 @@ public class Main {
 		console.nextLine();
 	}
 	
+	/** A main method to run the program. */
 	public static void main(String[] args) {
 		System.out.println("Compare two Persons that are different");
 		Person a = new Person("Cat");
