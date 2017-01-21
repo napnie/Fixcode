@@ -1,4 +1,3 @@
-//TODO Write class Javadoc
 /**
  * An extends of Person class to represents a student.
  * @author Nitith Chayakul
@@ -9,9 +8,8 @@ public class Student extends Person {
 	/**
 	 * Initialize a new Student object which is an extends of Person class.
 	 * @param name - Student's name manage by Person class
-	 * 		  id - Student's ID
+	 * @param id - Student's ID
 	 */
-	//TODO Write constructor Javadoc
 	public Student(String name, long id) {
 		super(name); // name is managed by Person class
 		this.id = id;
@@ -25,12 +23,10 @@ public class Student extends Person {
 		return String.format("Student %s (%d)", getName(), id);
 	}
 
-	//TODO Fix the parameter!
-	//TODO Write Javadoc and fix equals: two objects are equal if
-	//TODO they are both Students, have same name, *and* have same id.
-	//TODO Use the 4-step template for equals in the Fundamental Methods handout.
 	/**
 	 * Two students are equal if their name and ID is the same.
+	 * @param obj - Object that you want to check
+	 * @return boolean - Is the two object equal or not
 	 */
 	public boolean equals(Object obj) {
 		if (obj == null || obj.getClass() != this.getClass() ) return false;
@@ -39,7 +35,6 @@ public class Student extends Person {
 		return this.id == other.getId() && name.equalsIgnoreCase(other.getName());
 	}
 
-	//TODO Write getter and setter for id.  Write Javadoc, of course.
 	/** 
 	 * Accessor method for id 
 	 * @return Student id 

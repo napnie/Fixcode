@@ -3,11 +3,6 @@
  * 
  * @author Nitith Chayakul
  */
-//TODO Complete the missing Javadoc.
-//TODO Fix bad Javadoc tags and poorly written Javadoc.
-//TODO Make sure methods have @param and @return tags (if they return something)
-//TODO Remove all the "TODO" comments after you do them.
-//TODO Fix coding errors.
 public class Person {
 	/** the person's full name. */
 	public String name;
@@ -44,8 +39,6 @@ public class Person {
 	 * @return true if the name is same, false otherwise.
 	 */
 	public boolean equals(Object obj) {
-		//TODO After running the test program (Main), fix this method.
-		//TODO Use the 4-step template for equals in the Fundamental Methods handout.
 		if (obj == null || obj.getClass() != this.getClass()) return false;
 		Person other = (Person) obj;
 		return name.equals( other.getName() );
