@@ -11,3 +11,6 @@ Explain why a.equals(b) can be true, but b.equals(a) can sometime be false.
 3. Write a correct equals( ) method for Person and Student.
 
 ## Commit the code to your Github/Bitbucket account
+
+## UML Class diagram of Person and Student
+![UML-Diagram](https://github.com/napnie/Fixcode/raw/master/UML-Diagram.png)
